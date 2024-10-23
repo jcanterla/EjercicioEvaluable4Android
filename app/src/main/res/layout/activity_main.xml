@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top">
+
+        <FrameLayout
+            android:id="@+id/frame1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="#2e9688" />
+
+        <FrameLayout
+            android:id="@+id/frame2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="145dp"
+            android:background="#4caf50" />
+
+        <FrameLayout
+            android:id="@+id/frame3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="290dp"
+            android:background="#8bc34a" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <FrameLayout
+            android:id="@+id/frame4"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:background="#6739b7" />
+
+        <FrameLayout
+            android:id="@+id/frame5"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="10dp"
+            android:background="#3e51b5" />
+
+        <FrameLayout
+            android:id="@+id/frame6"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="290dp"
+            android:layout_marginTop="10dp"
+            android:background="#3596f3" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <FrameLayout
+            android:id="@+id/frame7"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:background="#e91d62" />
+
+        <FrameLayout
+            android:id="@+id/frame8"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="10dp"
+            android:background="#f44336" />
+
+        <FrameLayout
+            android:id="@+id/frame9"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="290dp"
+            android:layout_marginTop="10dp"
+            android:background="#eda28a" />
+    </FrameLayout>
+
+</FrameLayout>
